@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tea House</title>
+
+<!-- tailwind-cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- icon-cdn -->
+<script src="https://kit.fontawesome.com/8d8f9e8f11.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex ">
+            <div>
+                <h1 class=" mb-8 font-bold text-5xl md:text-7xl text-black">
+                    It's good <br>
+                tea time at The <br>
+                 Tea House
+                </h1>
+                <p class="text-[#777777] mb-5">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="bg-gradient-to-r from-orange-400 to-red-600 rounded-lg px-6 py-3 mt-4 mb-6 text-white font-medium text-l">Explore More  <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+            </div>
+                        <div class="relative">
+                            <div>
+                                <img class="w-full mt-10" src="./images/banner.png" alt="">
+                            </div>
+                            <div class=" absolute flex items-center rounded-lg bottom-10 right-25 left-12 bg-white shadow-lg px-2 md:px-10 py-4 ">
+    <div > <i class="fa-solid fa-star text-2xl text-amber-400"></i></div>
+    <div>
+        <h2 class="font-bold">5.00</h2>
+        <p class="text-[#777777] font-semibold ">Trust pilot ratings</p>
+    </div>
+                            </div>
+                            
+                        </div>
+        </header>
+    </main>
+ </body>
+ </html>
